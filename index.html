@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Templete</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+    <div class="form">
+        <div class="ball-container"><div class="result1" id="result1"></div></div>
+        <div class="form-group">
+            <div class="label-ta-container">
+                <label class="ta-label">Your Name</label>
+                <textarea onkeyup="getName(this)" name = "" id = "Name" cols = "30" rows="5" placeholder="">Leonid</textarea>
+            </div>
+            <div class="label-ta-container">
+                <label class="ta-label">Your question</label>
+                <textarea onkeyup="getQuestion(this)" name = "" id = "Question" cols = "30" rows="5" placeholder="">Should I learn JS</textarea>
+            </div>
+        </div>
+        <button class="btn btn-primary" id="submit">Submit</button>
+        <div style="display: flex; flex-direction: row">
+            <div class="result" style="width:100px" id="result2">Name<br></div>
+            <div class="result" style="width:300px" id="result3">Question<br></div>
+            <div class="result" style="width:200px" id="result4">Answer<br></div>
+        </div>
+    </div>
+</div>    
+</div>
+</div>
+
+
+
+<script src="./scripts.js"></script>
+</body>
+
+</html>
